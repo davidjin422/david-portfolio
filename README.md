@@ -5,5 +5,5 @@
 
 ## Deployment
 
-You can find the app [live link here](https://sandyj.vercel.app)
+You can find the app [live link here](https://david-jin.vercel.app/)
 # david-portfolio
