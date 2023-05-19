@@ -1,0 +1,291 @@
+import { BsCalendar2Date } from "react-icons/bs";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import Resume from "../../assets/resume/DavidJinResume.pdf";
+import "./about.scss";
+
+const About = ({ menu }) => {
+  Aos.init({ duration: 1000 });
+  return (
+    <section className={`about ${menu && "open"}`}>
+      <div className="container">
+        <div className="row">
+          <div className="section-title padd-15">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div className="row">
+          <div className="about-content padd-15">
+            <div className="row">
+              <div className="about-text">
+                <h3 data-aos="fade-in">
+                  I'm David Jin, a <span>Full-Stack / Web Developer</span>
+                </h3>
+                <p data-aos="fade-in">
+                  Senior Full Stack and Blockchain Developer with over 8 years
+                  of experience in building robust, scalable, and secure web and
+                  blockchain applications. Proficient in MERN, MEAN, Laravel,
+                  and Python, with a strong understanding of front-end and
+                  back-end technologies. Skilled in Solidity and Rust for smart
+                  contract development and experienced in integrating blockchain
+                  solutions into web applications. Proven ability to lead and
+                  collaborate with cross-functional teams to deliver complex
+                  projects on time and within budget. Passionate about exploring
+                  new technologies and continuously improving skills to drive
+                  innovation and create value for clients and stakeholders.
+                </p>
+              </div>
+            </div>
+            <div className="row" data-aos="fade-in">
+              <div className="personal-info padd-15">
+                <div className="row">
+                  <div className="info-item padd-15" data-aos="fade-in">
+                    <p>
+                      Alias : <span>David</span>
+                    </p>
+                  </div>
+                  <div className="info-item padd-15" data-aos="fade-in">
+                    <p>
+                      GitHub : <span>https://github.com/DevSmith0213</span>
+                    </p>
+                  </div>
+                  <div className="info-item padd-15" data-aos="fade-in">
+                    <p>
+                      Email : <span>jsandy.business@proton.me</span>
+                    </p>
+                  </div>
+                  <div className="info-item padd-15" data-aos="fade-in">
+                    <p>
+                      Degree : <span>Bachelor in Computer Science</span>
+                    </p>
+                  </div>
+                  <div className="info-item padd-15" data-aos="fade-in">
+                    <p>
+                      Certifications : <span>Full Stack Developer</span>
+                    </p>
+                  </div>
+                  <div className="info-item padd-15" data-aos="fade-in">
+                    <p>
+                      Phone : <span>+86 (152) 3367 1391</span>
+                    </p>
+                  </div>
+                </div>
+                <div className="row" data-aos="fade-in">
+                  <div className="buttons">
+                    <a
+                      href={Resume}
+                      download
+                      className="btn"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Get Resume
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="skills padd-15">
+                <div className="row">
+                  <div className="skill-item" data-aos="fade-in">
+                    <h3>ReactJS / NextJS</h3>
+                    <div className="progress">
+                      <div className="progress-in" style={{ width: "95%" }} />
+                      <div className="skill-percent">95%</div>
+                    </div>
+                  </div>
+                  <div className="skill-item" data-aos="fade-in">
+                    <h3>React Native / Flutter</h3>
+                    <div className="progress">
+                      <div className="progress-in" style={{ width: "90%" }} />
+                      <div className="skill-percent">90%</div>
+                    </div>
+                  </div>
+                  <div className="skill-item" data-aos="fade-in">
+                    <h3>NodeJS / ExpressJS / Django / Laravel</h3>
+                    <div className="progress">
+                      <div className="progress-in" style={{ width: "90%" }} />
+                      <div className="skill-percent">90%</div>
+                    </div>
+                  </div>
+                  <div className="skill-item" data-aos="fade-in">
+                    <h3>Web3.js / Ethers.js</h3>
+                    <div className="progress">
+                      <div className="progress-in" style={{ width: "80%" }} />
+                      <div className="skill-percent">80%</div>
+                    </div>
+                  </div>
+                  <div className="skill-item" data-aos="fade-in">
+                    <h3>Tailwind / MaterialUI</h3>
+                    <div className="progress">
+                      <div className="progress-in" style={{ width: "95%" }} />
+                      <div className="skill-percent">95%</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="education padd-15" data-aos="fade-in">
+                <h3 className="title">Experience</h3>
+                <div className="row">
+                  <div className="timeline-box">
+                    <div className="timeline shadow-dark">
+                      <div className="timeline-item">
+                        <div className="circle-dot" />
+                        <h3 className="timeline-date">
+                          <BsCalendar2Date className="fa fa-calendar" />
+                          <i>Oct 2020 - Present (2 years 8 months)</i>
+                        </h3>
+                        <h4 className="timeline-title">
+                          Lead Full Stack developer(Part time) @ CannaGo,
+                          Atlanta Geogria US
+                        </h4>
+                        <p className="timeline-text">
+                          - Frontend: React Native for consumer mobile
+                          application, React for the store web application.
+                        </p>
+                        <p className="timeline-text">
+                          -Backend: Node.js, Express.js, Firebase
+                          Firestore(Database).
+                        </p>
+                        <p className="timeline-text">
+                          -Google Map API for geolocation, Nodemailer for email
+                          functions.
+                        </p>
+                        <p className="timeline-text">
+                          -One signal for Notification and SMS.
+                        </p>
+                        <p className="timeline-text">
+                          - Implemented automated testing and CI/CD processes to
+                          improve code quality and performance.
+                        </p>
+                        <p className="timeline-text">
+                          - Maintained codebase with version control using Git
+                          and GitHub.
+                        </p>
+                      </div>
+                      <div className="timeline-item">
+                        <div className="circle-dot" />
+                        <h3 className="timeline-date">
+                          <BsCalendar2Date className="fa fa-calendar" />
+                          <i>Dec 2021 - Mar 2023 (1 year 4 months)</i>
+                        </h3>
+                        <h4 className="timeline-title">
+                          Lead Frontend || Web3 Developer @ Sombra Network, New
+                          York, US
+                        </h4>
+                        <p className="timeline-text">
+                          Sombra project is including NFT marketplace and NFT
+                          mint and staking and so on. For this project, I've
+                          used the following technologies.
+                        </p>
+                        <p className="timeline-text">
+                          -Network: Ethereum, Binance smart chain.
+                        </p>
+                        <p className="timeline-text">
+                          -Smart contract: Solidity, hardhat
+                        </p>
+                        <p className="timeline-text">
+                          -Frontend(Dapp): React.js, Next.js, Redux, Redux
+                          toolkit, Web3.js, Ethes.js
+                        </p>
+                        <p className="timeline-text">
+                          -Backend: Moralis, Moralis cloud function, Moralis
+                          Mongodb database.
+                        </p>
+                      </div>
+                      <div className="timeline-item">
+                        <div className="circle-dot" />
+                        <h3 className="timeline-date">
+                          <BsCalendar2Date className="fa fa-calendar" />
+                          <i>Jan 2021 - Jan 2022 (1 year 1 month)</i>
+                        </h3>
+                        <h4 className="timeline-title">
+                          Senior Full Stack Developer @ ECGO, Atlanta Geogria US
+                        </h4>
+                        <p className="timeline-text">
+                          This project is for recycling items. Main skill stack
+                        </p>
+                        <p className="timeline-text">
+                          -Frontend: React, Typescript, Redux, React Native.
+                        </p>
+                        <p className="timeline-text">
+                          -Backend: Python Django, Mysql database, Restful API.
+                        </p>
+                        <p className="timeline-text">
+                          -ML, Python, Amazon computer vision API. Amazon Web
+                          service.
+                        </p>
+                      </div>
+                    </div>
+                    ß
+                  </div>
+                </div>
+              </div>
+              <div className="experience padd-15" data-aos="fade-in">
+                <h3 className="title">Experience</h3>
+                <div className="row">
+                  <div className="timeline-box">
+                    <div className="timeline shadow-dark">
+                      <div className="timeline-item">
+                        <div className="circle-dot" />
+                        <h3 className="timeline-date">
+                          <BsCalendar2Date className="fa fa-calendar" />
+                          <i>Feb 2020 - Feb 2021 (1 year 1 month)</i>
+                        </h3>
+                        <h4 className="timeline-title">
+                          Web3 || Smart Contract Developer @ Vite Labs Limited,
+                          San Francisco California US
+                        </h4>
+                        <p className="timeline-text">
+                          I've worked as a blockchain developer at this company.
+                        </p>
+                        <p className="timeline-text">
+                          My main role was smart contract and web3 developer.
+                        </p>
+                        <p className="timeline-text">
+                          Main skill stacks: solidify, Truffle, web3.js,
+                          ethereum network
+                        </p>
+                      </div>
+                      <div className="timeline-item">
+                        <div className="circle-dot" />
+                        <h3 className="timeline-date">
+                          <BsCalendar2Date className="fa fa-calendar" />
+                          <i>Jan 2016 - Dec 2019 (4 years)</i>
+                        </h3>
+                        <h4 className="timeline-title">
+                          Full Stack Developer @ Upwork, US
+                        </h4>
+                        <p className="timeline-text">
+                          - I've worked as freelancer in this platform.
+                        </p>
+                        <p className="timeline-text">
+                          - I've developed so many projects for several clients.
+                        </p>
+                        <p className="timeline-text">Main skill sets:</p>
+                        <p className="timeline-text">
+                          -Frontend: React, React Native, Vue, Angular, HTML,
+                          CSS, Javascript, Typescript, Flutter
+                        </p>
+                        <p className="timeline-text">
+                          -Backend: Node, Express, Python Django, PHP Laravel.
+                        </p>
+                        <p className="timeline-text">
+                          -Third party: Amazon Web Service, Google Cloud
+                          Platform, Microsoft Azure.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default About;
