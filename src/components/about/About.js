@@ -248,7 +248,7 @@ const About = ({ menu }) => {
                         <div className="circle-dot" />
                         <h3 className="timeline-date">
                           <BsCalendar2Date className="fa fa-calendar" />
-                          <i>Feb 2020 - Feb 2021 (1 year 1 month)</i>
+                          <i>Jan 2020 - Sep 2021 (1 year 1 month)</i>
                         </h3>
                         <h4 className="timeline-title">
                           Web3 || Smart Contract Developer @ Vite Labs Limited,
