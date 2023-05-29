@@ -137,12 +137,21 @@ const About = ({ menu }) => {
                           <i>Oct 2020 - Present (2 years 8 months)</i>
                         </h3>
                         <h4 className="timeline-title">
-                          Lead Full Stack developer(Part time) @ CannaGo,
+                          Lead Full Stack developer (Part time) @ CannaGo,
                           Atlanta Geogria US
                         </h4>
                         <p className="timeline-text">
-                          - Frontend: React Native for consumer mobile
-                          application, React for the store web application.
+                          This platform is an online e-commerce platform for
+                          cannabis. There are three kinds of users like
+                          dispensaries, consumers, and drivers.
+                        </p>
+                        <p className="timeline-text">
+                          -I've used React Native using typescript for consumer
+                          mobile application, and implemented native modules for
+                          Authorized payment gateway and Geolocation functions,
+                          Java module for Android, and Object-C for iOS. And
+                          I've also implemented Onesignal api for the
+                          notification function as well.
                         </p>
                         <p className="timeline-text">
                           -Backend: Node.js, Express.js, Firebase
@@ -168,7 +177,7 @@ const About = ({ menu }) => {
                         <div className="circle-dot" />
                         <h3 className="timeline-date">
                           <BsCalendar2Date className="fa fa-calendar" />
-                          <i>Dec 2021 - Mar 2023 (1 year 4 months)</i>
+                          <i>Aug 2021 - Apr 2023 (1 year 10 months)</i>
                         </h3>
                         <h4 className="timeline-title">
                           Lead Frontend || Web3 Developer @ Sombra Network, New
@@ -201,13 +210,21 @@ const About = ({ menu }) => {
                           <i>Jan 2021 - Jan 2022 (1 year 1 month)</i>
                         </h3>
                         <h4 className="timeline-title">
-                          Senior Full Stack Developer @ ECGO, Atlanta Geogria US
+                          Senior Mobile App Developer @ ECGO, Atlanta Geogria US
                         </h4>
                         <p className="timeline-text">
-                          This project is for recycling items. Main skill stack
+                          This project is for recycling items. <br />
+                          Users can scan any items such as plastic, wood, or
+                          paper using a mobile app, and identify whether that
+                          material is reusable or not. So users can get rewards
+                          for the items they uploaded using this mobile app.
                         </p>
                         <p className="timeline-text">
-                          -Frontend: React, Typescript, Redux, React Native.
+                          -I've worked as a Mobile app developer using React
+                          Native. This was a challenge for me because I have to
+                          develop a native module for scanning items. I used
+                          Python and object-C for the scanning module and
+                          developed from scratch to deploy.
                         </p>
                         <p className="timeline-text">
                           -Backend: Python Django, Mysql database, Restful API.
