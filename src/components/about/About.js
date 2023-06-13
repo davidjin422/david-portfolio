@@ -261,7 +261,7 @@ const About = ({ menu }) => {
                           My main role was smart contract and web3 developer.
                         </p>
                         <p className="timeline-text">
-                          Main skill stacks: solidify, Truffle, web3.js,
+                          Main skill stacks: Solidity, Truffle, web3.js,
                           ethereum network
                         </p>
                       </div>
