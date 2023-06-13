@@ -51,7 +51,7 @@ const About = ({ menu }) => {
                   </div>
                   <div className="info-item padd-15" data-aos="fade-in">
                     <p>
-                      Email : <span>jsandy.business@proton.me</span>
+                      Email : <span>davidbusiness0520@gmail.com</span>
                     </p>
                   </div>
                   <div className="info-item padd-15" data-aos="fade-in">
@@ -134,7 +134,7 @@ const About = ({ menu }) => {
                         <div className="circle-dot" />
                         <h3 className="timeline-date">
                           <BsCalendar2Date className="fa fa-calendar" />
-                          <i>Oct 2020 - Present (2 years 8 months)</i>
+                          <i>Oct 2020 - Present</i>
                         </h3>
                         <h4 className="timeline-title">
                           Lead Full Stack developer (Part time) @ CannaGo,
@@ -177,7 +177,7 @@ const About = ({ menu }) => {
                         <div className="circle-dot" />
                         <h3 className="timeline-date">
                           <BsCalendar2Date className="fa fa-calendar" />
-                          <i>Aug 2021 - Apr 2023 (1 year 10 months)</i>
+                          <i>Aug 2021 - May 2023</i>
                         </h3>
                         <h4 className="timeline-title">
                           Lead Frontend || Web3 Developer @ Sombra Network, New
@@ -207,7 +207,7 @@ const About = ({ menu }) => {
                         <div className="circle-dot" />
                         <h3 className="timeline-date">
                           <BsCalendar2Date className="fa fa-calendar" />
-                          <i>Jan 2021 - Jan 2022 (1 year 1 month)</i>
+                          <i>May 2021 - Jan 2022</i>
                         </h3>
                         <h4 className="timeline-title">
                           Senior Mobile App Developer @ ECGO, Atlanta Geogria US
@@ -248,7 +248,7 @@ const About = ({ menu }) => {
                         <div className="circle-dot" />
                         <h3 className="timeline-date">
                           <BsCalendar2Date className="fa fa-calendar" />
-                          <i>Jan 2020 - Sep 2021 (1 year 1 month)</i>
+                          <i>Jan 2020 - Sep 2021</i>
                         </h3>
                         <h4 className="timeline-title">
                           Web3 || Smart Contract Developer @ Vite Labs Limited,
@@ -269,7 +269,7 @@ const About = ({ menu }) => {
                         <div className="circle-dot" />
                         <h3 className="timeline-date">
                           <BsCalendar2Date className="fa fa-calendar" />
-                          <i>Jan 2016 - Dec 2019 (4 years)</i>
+                          <i>Jan 2016 - Dec 2019</i>
                         </h3>
                         <h4 className="timeline-title">
                           Full Stack Developer @ Upwork, US
