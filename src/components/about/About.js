@@ -56,7 +56,7 @@ const About = ({ menu }) => {
                   </div>
                   <div className="info-item padd-15" data-aos="fade-in">
                     <p>
-                      Degree : <span>Bachelor in Computer Science</span>
+                      Degree : <span>Master in Computer Science</span>
                     </p>
                   </div>
                   <div className="info-item padd-15" data-aos="fade-in">
