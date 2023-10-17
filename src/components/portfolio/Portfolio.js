@@ -11,6 +11,7 @@ import img5 from "../../assets/images/5.jpg";
 import img6 from "../../assets/images/6.jpg";
 import img7 from "../../assets/images/7.jpg";
 import img8 from "../../assets/images/8.jpg";
+import img9 from "../../assets/images/9.png";
 import Modal from "../modal/Modal";
 
 const Portfolio = ({ menu }) => {
@@ -111,6 +112,15 @@ const Portfolio = ({ menu }) => {
       techs: ["React", "Firebase", "Styled-Components"],
       image: img8,
       linkToLiveVersion: "https://trycannago.com/",
+      // linkToSource: "https://github.com/",
+    },
+    {
+      name: "SinsOfShadow",
+      description:
+        "Sombra Network.",
+      techs: ["React & Redux", "Web3", "Moralis"],
+      image: img9,
+      linkToLiveVersion: "https://sinsofshadow.io/",
       // linkToSource: "https://github.com/",
     },
   ]);
