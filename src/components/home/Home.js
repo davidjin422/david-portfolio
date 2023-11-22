@@ -4,7 +4,7 @@ import { FaAngellist, FaGithub, FaTelegram, FaDiscord } from "react-icons/fa";
 import Typed from "typed.js";
 import "./home.scss";
 // import logo from "../../assets/images/BudTab.png";
-import logo from "../../assets/images/sandy2.jpg";
+import logo from "../../assets/images/sandy2.png";
 import BgCanvas from "../bg-canvas/BgCanvas";
 
 const Home = ({ menu }) => {
