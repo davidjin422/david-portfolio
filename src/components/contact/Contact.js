@@ -77,7 +77,7 @@ const Contact = ({ menu }) => {
           <div className="contact-info-item padd-15">
             <div className="icon">
               <a
-                href="https://www.linkedin.com/in/david-jin-8b5bba210/"
+                href="https://www.linkedin.com/in/david-jin-2786a2242/"
                 target="_blank"
                 rel="noreferrer"
               >

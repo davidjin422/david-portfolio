@@ -51,7 +51,7 @@ const Home = ({ menu }) => {
           <li>
             <a
               target="_blank"
-              href="https://www.linkedin.com/in/david-jin-8b5bba210/"
+              href="https://www.linkedin.com/in/david-jin-2786a2242/"
               rel="noreferrer"
             >
               <AiOutlineLinkedin />
