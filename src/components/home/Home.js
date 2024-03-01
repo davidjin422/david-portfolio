@@ -68,7 +68,7 @@ const Home = ({ menu }) => {
                 I'm a <span className="typing" ref={el} />
               </h3>
               <p>
-                I
+                I am an experienced, product-focused full-stack JavaScript
                 Engineer - a true professional who loves to take ownership and
                 responsibility across the entire stack! If you like what you see
                 and have a project you need coded, don’t hestiate to contact me.
