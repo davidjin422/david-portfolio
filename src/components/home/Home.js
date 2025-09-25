@@ -12,7 +12,7 @@ const Home = ({ menu }) => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Full-Stack Developer", "Web3 Developer", "Frontend Developer"], // Strings to display
+      strings: ["Full Stack Software Engineer", "3D Web Developer", "Creative Technology Developer", "Mobile App Developer"], // Strings to display
       // Speed settings, try diffrent values untill you get good results
       typeSpeed: 100,
       backSpeed: 60,
@@ -58,10 +58,13 @@ const Home = ({ menu }) => {
                 I'm a <span className="typing" ref={el} />
               </h3>
               <p>
-                I am an experienced, product-focused full-stack JavaScript
-                Engineer - a true professional who loves to take ownership and
-                responsibility across the entire stack! If you like what you see
-                and have a project you need coded, don’t hestiate to contact me.
+                I am a creative Full-Stack Software Engineer with 8+ years of experience 
+                building immersive web experiences, mobile applications, and innovative 
+                digital solutions. Specialized in modern frontend frameworks (React, Next.js, 
+                Vue.js, Nuxt.js), 3D web development with Three.js, and cross-platform 
+                mobile development with React Native. Passionate about creating engaging 
+                user experiences through interactive 3D graphics, AI-powered features, 
+                and cutting-edge web technologies.
               </p>
 
               <button
