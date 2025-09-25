@@ -132,7 +132,7 @@ const About = ({ menu }) => {
                         <div className="circle-dot" />
                         <h3 className="timeline-date">
                           <BsCalendar2Date className="fa fa-calendar" />
-                          <i>2023 - Present</i>
+                          <i>May 2023 - Present</i>
                         </h3>
                         <h4 className="timeline-title">
                           Creative Technology Developer @ Sombra
@@ -158,7 +158,7 @@ const About = ({ menu }) => {
                         <div className="circle-dot" />
                         <h3 className="timeline-date">
                           <BsCalendar2Date className="fa fa-calendar" />
-                          <i>2022 - 2023</i>
+                          <i>Mar 2022 - Apr 2023</i>
                         </h3>
                         <h4 className="timeline-title">
                           Mobile App Developer @ SOS Teacher Agency
@@ -184,7 +184,7 @@ const About = ({ menu }) => {
                         <div className="circle-dot" />
                         <h3 className="timeline-date">
                           <BsCalendar2Date className="fa fa-calendar" />
-                          <i>2021 - 2022</i>
+                          <i>May 2020 - Feb 2022</i>
                         </h3>
                         <h4 className="timeline-title">
                           Full-Stack Developer @ Aatlas
@@ -221,7 +221,7 @@ const About = ({ menu }) => {
                         <div className="circle-dot" />
                         <h3 className="timeline-date">
                           <BsCalendar2Date className="fa fa-calendar" />
-                          <i>2020 - 2021</i>
+                          <i>Oct 2019 - Apr 2020</i>
                         </h3>
                         <h4 className="timeline-title">
                           Full-Stack Developer @ Health Nutrition
@@ -247,7 +247,7 @@ const About = ({ menu }) => {
                         <div className="circle-dot" />
                         <h3 className="timeline-date">
                           <BsCalendar2Date className="fa fa-calendar" />
-                          <i>2016 - 2019</i>
+                          <i>Oct 2016 - Mar 2019</i>
                         </h3>
                         <h4 className="timeline-title">
                           Full-Stack Developer @ Upwork (Freelancer)
