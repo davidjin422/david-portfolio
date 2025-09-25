@@ -1,7 +1,7 @@
 import { BsCalendar2Date } from "react-icons/bs";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Resume from "../../assets/resume/DavidJinResume.pdf";
+import Resume from "../../assets/resume/davidjin.pdf";
 import "./about.scss";
 
 const About = ({ menu }) => {
@@ -19,20 +19,18 @@ const About = ({ menu }) => {
             <div className="row">
               <div className="about-text">
                 <h3 data-aos="fade-in">
-                  I'm David Jin, a <span>Full-Stack / Web Developer</span>
+                  I'm DongZhen Jin, a <span>Full Stack Software Engineer</span>
                 </h3>
                 <p data-aos="fade-in">
-                  Senior Full Stack and Blockchain Developer with over 8 years
-                  of experience in building robust, scalable, and secure web and
-                  blockchain applications. Proficient in MERN, MEAN, Laravel,
-                  and Python, with a strong understanding of front-end and
-                  back-end technologies. Skilled in Solidity and Rust for smart
-                  contract development and experienced in integrating blockchain
-                  solutions into web applications. Proven ability to lead and
-                  collaborate with cross-functional teams to deliver complex
-                  projects on time and within budget. Passionate about exploring
-                  new technologies and continuously improving skills to drive
-                  innovation and create value for clients and stakeholders.
+                  Creative Full-Stack Developer with 8+ years of experience building immersive web experiences, 
+                  mobile applications, and innovative digital solutions. Specialized in modern frontend frameworks 
+                  (React, Next.js, Vue.js, Nuxt.js), 3D web development with Three.js, and cross-platform mobile 
+                  development with React Native. Expert in backend technologies including Node.js, Golang, and 
+                  Nest.js, with extensive experience in database design, payment integration (Stripe), and cloud 
+                  deployment (GCP, Cloudflare). Passionate about creating engaging user experiences through 
+                  interactive 3D graphics, AI-powered features, and cutting-edge web technologies. Proven track 
+                  record of delivering complex projects from concept to deployment, including creative technology 
+                  studios, e-commerce platforms, mobile apps, and Chrome extensions.
                 </p>
               </div>
             </div>
@@ -46,12 +44,12 @@ const About = ({ menu }) => {
                   </div>
                   <div className="info-item padd-15" data-aos="fade-in">
                     <p>
-                      GitHub : <span>https://github.com/DevSmith0213</span>
+                      GitHub : <span>https://github.com/davidjin422</span>
                     </p>
                   </div>
                   <div className="info-item padd-15" data-aos="fade-in">
                     <p>
-                      Email : <span>davidbusiness0520@gmail.com</span>
+                      Email : <span>devsmith0213@gmail.com</span>
                     </p>
                   </div>
                   <div className="info-item padd-15" data-aos="fade-in">
@@ -66,7 +64,7 @@ const About = ({ menu }) => {
                   </div>
                   <div className="info-item padd-15" data-aos="fade-in">
                     <p>
-                      Phone : <span>+86 (152) 3367 1391</span>
+                      Phone : <span>+86 155 2405 6790</span>
                     </p>
                   </div>
                 </div>
@@ -87,38 +85,38 @@ const About = ({ menu }) => {
               <div className="skills padd-15">
                 <div className="row">
                   <div className="skill-item" data-aos="fade-in">
-                    <h3>ReactJS / NextJS</h3>
+                    <h3>React / Next.js / Vue.js / Nuxt.js</h3>
                     <div className="progress">
                       <div className="progress-in" style={{ width: "95%" }} />
                       <div className="skill-percent">95%</div>
                     </div>
                   </div>
                   <div className="skill-item" data-aos="fade-in">
-                    <h3>React Native / Flutter</h3>
+                    <h3>Three.js / WebGL / 3D Graphics</h3>
                     <div className="progress">
                       <div className="progress-in" style={{ width: "90%" }} />
                       <div className="skill-percent">90%</div>
                     </div>
                   </div>
                   <div className="skill-item" data-aos="fade-in">
-                    <h3>NodeJS / ExpressJS / Django / Laravel</h3>
+                    <h3>React Native / Mobile Development</h3>
                     <div className="progress">
                       <div className="progress-in" style={{ width: "90%" }} />
                       <div className="skill-percent">90%</div>
                     </div>
                   </div>
                   <div className="skill-item" data-aos="fade-in">
-                    <h3>Web3.js / Ethers.js</h3>
+                    <h3>Golang / Node.js / Nest.js</h3>
                     <div className="progress">
-                      <div className="progress-in" style={{ width: "80%" }} />
-                      <div className="skill-percent">80%</div>
+                      <div className="progress-in" style={{ width: "90%" }} />
+                      <div className="skill-percent">90%</div>
                     </div>
                   </div>
                   <div className="skill-item" data-aos="fade-in">
-                    <h3>Tailwind / MaterialUI</h3>
+                    <h3>Chrome Extensions / AI Integration</h3>
                     <div className="progress">
-                      <div className="progress-in" style={{ width: "95%" }} />
-                      <div className="skill-percent">95%</div>
+                      <div className="progress-in" style={{ width: "85%" }} />
+                      <div className="skill-percent">85%</div>
                     </div>
                   </div>
                 </div>
@@ -134,104 +132,79 @@ const About = ({ menu }) => {
                         <div className="circle-dot" />
                         <h3 className="timeline-date">
                           <BsCalendar2Date className="fa fa-calendar" />
-                          <i>Oct 2020 - Present</i>
+                          <i>2023 - Present</i>
                         </h3>
                         <h4 className="timeline-title">
-                          Lead Full Stack developer (Part time) @ CannaGo,
-                          Atlanta Geogria US
+                          Creative Technology Developer @ Sombra
                         </h4>
                         <p className="timeline-text">
-                          This platform is an online e-commerce platform for
-                          cannabis. There are three kinds of users like
-                          dispensaries, consumers, and drivers.
+                          Leading development of immersive 3D web experiences and creative technology solutions. 
+                          Specialized in Three.js, WebGL, and modern web technologies for high-end creative projects.
                         </p>
                         <p className="timeline-text">
-                          -I've used React Native using typescript for consumer
-                          mobile application, and implemented native modules for
-                          Authorized payment gateway and Geolocation functions,
-                          Java module for Android, and Object-C for iOS. And
-                          I've also implemented Onesignal api for the
-                          notification function as well.
+                          - Developed cutting-edge 3D websites featuring interactive animations and immersive user experiences
                         </p>
                         <p className="timeline-text">
-                          -Backend: Node.js, Express.js, Firebase
-                          Firestore(Database).
+                          - Technologies: Three.js, Next.js, WebGL, TypeScript, React
                         </p>
                         <p className="timeline-text">
-                          -Google Map API for geolocation, Nodemailer for email
-                          functions.
+                          - Created projects for major brands including NFL, Pokemon Go, Louis Vuitton, and Swarovski
                         </p>
                         <p className="timeline-text">
-                          -One signal for Notification and SMS.
-                        </p>
-                        <p className="timeline-text">
-                          - Implemented automated testing and CI/CD processes to
-                          improve code quality and performance.
-                        </p>
-                        <p className="timeline-text">
-                          - Maintained codebase with version control using Git
-                          and GitHub.
+                          - Implemented advanced 3D modeling, animation systems, and performance optimization
                         </p>
                       </div>
                       <div className="timeline-item">
                         <div className="circle-dot" />
                         <h3 className="timeline-date">
                           <BsCalendar2Date className="fa fa-calendar" />
-                          <i>Aug 2021 - May 2023</i>
+                          <i>2022 - 2023</i>
                         </h3>
                         <h4 className="timeline-title">
-                          Lead Frontend || Web3 Developer @ Sombra Network, New
-                          York, US
+                          Mobile App Developer @ SOS Teacher Agency
                         </h4>
                         <p className="timeline-text">
-                          Sombra project is including NFT marketplace and NFT
-                          mint and staking and so on. For this project, I've
-                          used the following technologies.
+                          Developed a comprehensive mobile app for teacher placement and school communication 
+                          using React Native (Expo), featuring real-time placement management and secure messaging.
                         </p>
                         <p className="timeline-text">
-                          -Network: Ethereum, Binance smart chain.
+                          - Built teacher placement management system with calendar integration
                         </p>
                         <p className="timeline-text">
-                          -Smart contract: Solidity, hardhat
+                          - Implemented secure messaging between teachers and schools
                         </p>
                         <p className="timeline-text">
-                          -Frontend(Dapp): React.js, Next.js, Redux, Redux
-                          toolkit, Web3.js, Ethes.js
+                          - Developed real-time notifications and placement request system
                         </p>
                         <p className="timeline-text">
-                          -Backend: Moralis, Moralis cloud function, Moralis
-                          Mongodb database.
+                          - Technologies: React Native, Expo, Golang, PostgreSQL, real-time APIs
                         </p>
                       </div>
                       <div className="timeline-item">
                         <div className="circle-dot" />
                         <h3 className="timeline-date">
                           <BsCalendar2Date className="fa fa-calendar" />
-                          <i>May 2021 - Jan 2022</i>
+                          <i>2021 - 2022</i>
                         </h3>
                         <h4 className="timeline-title">
-                          Senior Mobile App Developer @ ECGO, Atlanta Geogria US
+                          Full-Stack Developer @ Aatlas
                         </h4>
                         <p className="timeline-text">
-                          This project is for recycling items. <br />
-                          Users can scan any items such as plastic, wood, or
-                          paper using a mobile app, and identify whether that
-                          material is reusable or not. So users can get rewards
-                          for the items they uploaded using this mobile app.
+                          Developed a comprehensive life story documentation platform that helps users create, celebrate, 
+                          and share personal narratives. Built with Vue.js/Nuxt.js frontend, Golang backend, and Stripe 
+                          payment integration.
                         </p>
                         <p className="timeline-text">
-                          -I've worked as a Mobile app developer using React
-                          Native. This was a challenge for me because I have to
-                          develop a native module for scanning items. I used
-                          Python and object-C for the scanning module and
-                          developed from scratch to deploy.
+                          - Built interactive timelines and location mapping features
                         </p>
                         <p className="timeline-text">
-                          -Backend: Python Django, Mysql database, Restful API.
+                          - Implemented collaborative memory collection and rich multimedia support
                         </p>
                         <p className="timeline-text">
-                          -ML, Python, Amazon computer vision API. Amazon Web
-                          service.
+                          - Deployed on Google Cloud Platform with Cloudflare CDN for optimal performance
+                        </p>
+                        <p className="timeline-text">
+                          - Technologies: Vue.js, Nuxt.js, Golang, Stripe, GCP, Cloudflare
                         </p>
                       </div>
                     </div>
@@ -248,49 +221,52 @@ const About = ({ menu }) => {
                         <div className="circle-dot" />
                         <h3 className="timeline-date">
                           <BsCalendar2Date className="fa fa-calendar" />
-                          <i>Jan 2020 - Sep 2021</i>
+                          <i>2020 - 2021</i>
                         </h3>
                         <h4 className="timeline-title">
-                          Web3 || Smart Contract Developer @ Vite Labs Limited,
-                          San Francisco California US
+                          Full-Stack Developer @ Health Nutrition
                         </h4>
                         <p className="timeline-text">
-                          I've worked as a blockchain developer at this company.
+                          Developed a comprehensive health and wellness community platform with discussion forums, 
+                          product reviews, and user engagement features.
                         </p>
                         <p className="timeline-text">
-                          My main role was smart contract and web3 developer.
+                          - Built with Vue.js/Nuxt.js frontend and Nest.js backend
                         </p>
                         <p className="timeline-text">
-                          Main skill stacks: Solidity, Truffle, web3.js,
-                          ethereum network
+                          - Implemented PostgreSQL database for robust data management
+                        </p>
+                        <p className="timeline-text">
+                          - Created real-time discussion forums and community features
+                        </p>
+                        <p className="timeline-text">
+                          - Technologies: Vue.js, Nuxt.js, Nest.js, PostgreSQL, Community Platform
                         </p>
                       </div>
                       <div className="timeline-item">
                         <div className="circle-dot" />
                         <h3 className="timeline-date">
                           <BsCalendar2Date className="fa fa-calendar" />
-                          <i>Jan 2016 - Dec 2019</i>
+                          <i>2016 - 2019</i>
                         </h3>
                         <h4 className="timeline-title">
-                          Full Stack Developer @ Upwork, US
+                          Full-Stack Developer @ Upwork (Freelancer)
                         </h4>
                         <p className="timeline-text">
-                          - I've worked as freelancer in this platform.
+                          Built diverse web applications and mobile solutions for clients across various industries, 
+                          gaining extensive experience in modern web technologies and cloud platforms.
                         </p>
                         <p className="timeline-text">
-                          - I've developed so many projects for several clients.
-                        </p>
-                        <p className="timeline-text">Main skill sets:</p>
-                        <p className="timeline-text">
-                          -Frontend: React, React Native, Vue, Angular, HTML,
-                          CSS, Javascript, Typescript, Flutter
+                          - Frontend: React, Vue.js, Angular, TypeScript, HTML5, CSS3, JavaScript
                         </p>
                         <p className="timeline-text">
-                          -Backend: Node, Express, Python Django, PHP Laravel.
+                          - Backend: Node.js, Express.js, Python Django, PHP Laravel, Golang
                         </p>
                         <p className="timeline-text">
-                          -Third party: Amazon Web Service, Google Cloud
-                          Platform, Microsoft Azure.
+                          - Cloud Platforms: AWS, Google Cloud Platform, Microsoft Azure, Cloudflare
+                        </p>
+                        <p className="timeline-text">
+                          - Mobile: React Native, Flutter, cross-platform development
                         </p>
                       </div>
                     </div>

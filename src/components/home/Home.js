@@ -1,10 +1,9 @@
 import { useRef, useEffect } from "react";
-import { AiOutlineLinkedin } from "react-icons/ai";
 import { FaAngellist, FaGithub, FaTelegram, FaDiscord } from "react-icons/fa";
 import Typed from "typed.js";
 import "./home.scss";
 // import logo from "../../assets/images/BudTab.png";
-import logo from "../../assets/images/sandy2.png";
+import logo from "../../assets/images/david.jpg";
 import BgCanvas from "../bg-canvas/BgCanvas";
 
 const Home = ({ menu }) => {
@@ -33,7 +32,7 @@ const Home = ({ menu }) => {
           <li>
             <a
               target="_blank"
-              href="https://github.com/DevSmith0213"
+              href="https://github.com/davidjin422"
               rel="noreferrer"
             >
               <FaGithub />
@@ -41,20 +40,11 @@ const Home = ({ menu }) => {
           </li>
           <li>
             <a
-              href="https://t.me/DevDavid0520"
+              href="https://t.me/davidjin0213"
               target="_blank"
               rel="noreferrer"
             >
               <FaTelegram className="react-icon" />
-            </a>
-          </li>
-          <li>
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/david-jin-2786a2242/"
-              rel="noreferrer"
-            >
-              <AiOutlineLinkedin />
             </a>
           </li>
         </ul>
@@ -62,7 +52,7 @@ const Home = ({ menu }) => {
           <div className="row">
             <div className="home-info padd-15">
               <h3 className="hello">
-                Hey there, I'm <span className="name">David Jin</span>
+                Hey there, I'm <span className="name">DongZhen Jin</span>
               </h3>
               <h3 className="my-profession">
                 I'm a <span className="typing" ref={el} />

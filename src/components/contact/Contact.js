@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { AiOutlineLinkedin } from "react-icons/ai";
 import { FaGithub, FaTelegram, FaDiscord } from "react-icons/fa";
 import "./contact.scss";
 
@@ -53,7 +52,7 @@ const Contact = ({ menu }) => {
           <div className="contact-info-item padd-15">
             <div className="icon">
               <a
-                href="https://github.com/DevSmith0213"
+                href="https://github.com/davidjin422"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -65,25 +64,13 @@ const Contact = ({ menu }) => {
           <div className="contact-info-item padd-15">
             <div className="icon">
               <a
-                href="https://t.me/DevDavid0520"
+                href="https://t.me/davidjin0213"
                 target="_blank"
                 rel="noreferrer"
               >
                 <FaTelegram className="react-icon" />
               </a>
               <h4>Telegram</h4>
-            </div>
-          </div>
-          <div className="contact-info-item padd-15">
-            <div className="icon">
-              <a
-                href="https://www.linkedin.com/in/david-jin-2786a2242/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <AiOutlineLinkedin className="react-icon" />
-              </a>
-              <h4>LinkedIn</h4>
             </div>
           </div>
         </div>

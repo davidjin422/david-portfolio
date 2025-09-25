@@ -2,7 +2,6 @@ import { NavLink } from "react-router-dom";
 import { AiOutlineClose } from "react-icons/ai";
 import {
   FaUserAlt,
-  FaClipboardList,
   FaBriefcase,
   FaHome,
   FaBars,
@@ -48,11 +47,6 @@ const Header = ({ menu, handleHamburger, handleLinkClick }) => {
           <li>
             <NavLink to="/Portfolio" onClick={handleLinkClick}>
               <FaBriefcase className="nav-icon" /> Portfolio
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/Contact" onClick={handleLinkClick}>
-              <FaClipboardList className="nav-icon" /> Contact
             </NavLink>
           </li>
         </ul>
